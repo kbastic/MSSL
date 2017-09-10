@@ -51,7 +51,9 @@ The MSSL software operates on client/server architecture. It can run on any syst
 
 Login Page
 
+![register2](https://user-images.githubusercontent.com/30803397/30253690-36e44f7c-9658-11e7-8948-1e71716dc7f3.jpg)
 
+Register Page
 
 
 ### Future Development and migration to mobile platforms
