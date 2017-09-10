@@ -47,13 +47,34 @@ The MSSL software operates on client/server architecture. It can run on any syst
 
 ### Screenshots
 
+
+#### Login Page
+
 ![login2](https://user-images.githubusercontent.com/30803397/30253665-ab7fc542-9657-11e7-95dd-e47dd2068f69.jpg)
 
-Login Page
+#### Register Page
 
 ![register2](https://user-images.githubusercontent.com/30803397/30253690-36e44f7c-9658-11e7-8948-1e71716dc7f3.jpg)
 
-Register Page
+#### Home Page
+
+![home2](https://user-images.githubusercontent.com/30803397/30253699-7d31769e-9658-11e7-8a74-ca8e09cf99a5.jpg)
+
+#### Symptoms Log Page
+
+![log2](https://user-images.githubusercontent.com/30803397/30253718-e853e510-9658-11e7-936c-bf7a4ed42d34.jpg)
+
+#### View Symptoms Page
+
+![view2](https://user-images.githubusercontent.com/30803397/30253711-cb21a5cc-9658-11e7-897d-3673c4ef94d9.jpg)
+
+#### Edit Symptoms Page
+
+![edit2](https://user-images.githubusercontent.com/30803397/30253706-9d1fe238-9658-11e7-90f3-2ce9ca06e318.jpg)
+
+#### Search Symptoms Page
+
+![search3](https://user-images.githubusercontent.com/30803397/30253709-b6aa3384-9658-11e7-9a07-898e9f69e6d0.jpg)
 
 
 ### Future Development and migration to mobile platforms
