@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title><?php echo $page_title; ?></title>
+    <link rel = "stylesheet" type = "text/css" href = "includes/styles.css">
+    
+    <script type="text/javascript" charset="utf-8" src="includes/datetimepicker_css.js"></script>
+    
+    <script type="text/javascript" charset="utf-8" src="includes/jquery-1.12.1.min.js"></script>
+    
+    
+</head>
+<body>
+<div class="container">
+  <div class="header"><img src="images/header.jpg"  width="960" height="150" id="Insert_logo" style="background-color: #C6D580; display:block;" />
+  <!-- end .header -->
+ </div>
+<div id="navigation">
+		<ul>
+        
+			<li style="font-size:x-small"><?php // Create a login/logout link:
+                 if (isset($_SESSION['user_id'])) {
+	                 echo '<a href="logout.php">LOGOUT</a>';
+                 } else {
+	                 echo '<a href="login.php">LOGIN</a>';
+                 }?></li>
+            <li><?php // Create register links:
+                 if (!isset($_SESSION['user_id'])) {
+	                  echo '<a href="register.php">REGISTER</a>';}?></li>
+             <li><?php // Create loggin links:
+                 if (isset($_SESSION['user_id'])) {
+	                  echo '<a href="loggedin.php">HOME</a>';}?></li>
+			<li><?php // Create loggin links:
+                 if (isset($_SESSION['user_id'])) {
+	                  echo '<a href="log.php">LOG</a>';}?></li>
+			<li><?php // Create loggin links:
+                 if (isset($_SESSION['user_id'])) {
+	                  echo '<a href="view.php">VIEW</a>';}?></li>
+             <li><?php // Create loggin links:
+                 if (isset($_SESSION['user_id'])) {
+	                  echo '<a href="search.php">SEARCH</a>';}?></li>
+           
+		</ul>
+</div>  
