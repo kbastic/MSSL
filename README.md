@@ -13,7 +13,7 @@ On the backend, the MSSL is maintained and updated by the systems administrator.
 
 The MSSL software operates on client/server architecture. It can run on any system with Apache web server and MySQL database. The website functionality is implemented by using the following programming and scripting languages: PHP, HTML, CSS, SQL, AJAX and JavaScript. 
 
-The user inputs consist of: 
+#### The user inputs consist of: 
 
 •	login information (password and username)
 
@@ -24,7 +24,7 @@ The user inputs consist of:
 •	search form input fields
 
 
-The functionality of the MSSL website consists of: 
+#### The functionality of the MSSL website consists of: 
 
 •	authentication and authorization
 
@@ -35,7 +35,7 @@ The functionality of the MSSL website consists of:
 •	print of selected records
 
 
-The MSSL output consists of: 
+#### The MSSL output consists of: 
 
 •	error messages
 
@@ -44,6 +44,10 @@ The MSSL output consists of:
 •	data entry and/or data modification confirmations
 
 •	printable document of search results
+
+### Screen Shots
+
+
 
 
 ### Future Development and migration to mobile platforms
