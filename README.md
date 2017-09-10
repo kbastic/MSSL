@@ -1,7 +1,7 @@
 # MSSL
 MS Symptoms Log (MSSL) is a web project for recording and tracking MS symptoms
 
-Current Implementation
+### Current Implementation
 
 The MSSL software is designed to help users record multiple sclerosis (MS) symptoms in a personal diary and have those records organized and printed.
 
@@ -16,25 +16,37 @@ The MSSL software operates on client/server architecture. It can run on any syst
 The user inputs consist of: 
 
 •	login information (password and username)
+
 •	registration (first name, last name and e-mail address)
+
 •	symptoms log form input fields
+
 •	search form input fields
+
 
 The functionality of the MSSL website consists of: 
 
 •	authentication and authorization
-•	storage and retrieval of database records  
+
+•	storage and retrieval of database records
+
 •	search by date range
+
 •	print of selected records
+
 
 The MSSL output consists of: 
 
 •	error messages
+
 •	symptoms history and search web pages
+
 •	data entry and/or data modification confirmations
+
 •	printable document of search results
 
-Future Development and migration to mobile platforms
+
+### Future Development and migration to mobile platforms
 
 Since many people suffering from MS may have advanced symptoms or permanent disabilities, the website should offer voice activation and touch screen capabilities.
  
